@@ -12,18 +12,17 @@
     <artifactId>ionicons-api</artifactId>
     <version>${changelist}</version>
     <packaging>hpi</packaging>
+    <name>Ionicons API</name>
+    <url>https://github.com/jenkinsci/${project.artifactId}</url>
 
     <properties>
-        <gitHubRepo>jenkinsci/ionicons-api</gitHubRepo>
+        <gitHubRepo>jenkinsci/ionicons-api-plugin</gitHubRepo>
         <changelist>9999999-SNAPSHOT</changelist>
         <jenkins.version>2.346.1</jenkins.version>
         <tagNameFormat>@{project.version}</tagNameFormat>
         <node.version>16.17.0</node.version>
         <npm.version>8.18.0</npm.version>
     </properties>
-
-    <name>Ionicons API</name>
-    <url>https://github.com/jenkinsci/${project.artifactId}</url>
 
     <dependencyManagement>
         <dependencies>
@@ -120,6 +119,7 @@
             <url>https://repo.jenkins-ci.org/public/</url>
         </repository>
     </repositories>
+
     <pluginRepositories>
         <pluginRepository>
             <id>repo.jenkins-ci.org</id>
