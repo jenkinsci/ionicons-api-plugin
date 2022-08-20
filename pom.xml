@@ -13,7 +13,7 @@
     <version>${changelist}</version>
     <packaging>hpi</packaging>
     <name>Ionicons API</name>
-    <url>https://github.com/jenkinsci/${project.artifactId}</url>
+    <url>https://github.com/jenkinsci/${gitHubRepo}</url>
 
     <properties>
         <gitHubRepo>jenkinsci/ionicons-api-plugin</gitHubRepo>
