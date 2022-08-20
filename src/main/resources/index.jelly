@@ -2,4 +2,6 @@
 
 <div>
     Provides <a href="https://ionic.io/ionicons">Ionicons</a> for Jenkins Plugins, internally known as "symbols".
+    <br/>
+    Check out the <a href="https://weekly.ci.jenkins.io/design-library/Symbols/">design-library</a> how to use ionicons in your plugin.
 </div>
