@@ -15,6 +15,6 @@
   },
   "homepage": "https://github.com/jenkinsci/ionicons-api#readme",
   "devDependencies": {
-    "ionicons": "5.5.4"
+    "ionicons": "6.0.2"
   }
 }
