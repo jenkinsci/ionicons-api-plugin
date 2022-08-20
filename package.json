@@ -1,19 +1,19 @@
 {
-  "name": "ionicons-api",
+  "name": "ionicons-api-plugin",
   "version": "1.0.0",
   "scripts": {
     "test": "exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jenkinsci/ionicons-api.git"
+    "url": "git+https://github.com/jenkinsci/ionicons-api-plugin.git"
   },
   "author": "Alexander Brandes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jenkinsci/ionicons-api/issues"
+    "url": "https://github.com/jenkinsci/ionicons-api-plugin/issues"
   },
-  "homepage": "https://github.com/jenkinsci/ionicons-api#readme",
+  "homepage": "https://github.com/jenkinsci/ionicons-api-plugin#readme",
   "devDependencies": {
     "ionicons": "6.0.2"
   }
