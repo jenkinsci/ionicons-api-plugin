@@ -1,0 +1,5 @@
+<?jelly escape-by-default='true'?>
+
+<div>
+    Provides <a href="https://ionic.io/ionicons">Ionicons</a> for Jenkins Plugins, internally known as "symbols".
+</div>

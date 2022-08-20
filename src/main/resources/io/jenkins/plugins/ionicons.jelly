@@ -1,0 +1,7 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core">
+
+    <j:new var="h" className="hudson.Functions" />
+    ${h.initPageVariables(context)}
+
+</j:jelly>
