@@ -2,6 +2,8 @@
   "name": "ionicons-api-plugin",
   "version": "1.0.0",
   "scripts": {
+    "mvnbuild": "npm install",
+    "mvntest": "npm run test",
     "test": "exit 0"
   },
   "repository": {
