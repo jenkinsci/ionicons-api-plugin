@@ -10,17 +10,9 @@ IoniconsAPI plugin
 
 This plugin provides [ionicons](https://ionic.io/ionicons), also known as "symbols", for your Jenkins plugins.
 
-First, add the ionicons-api as dependency to your `pom.xml`:
+Add the ionicons-api as dependency to your `pom.xml`:
 
-```xml
-<dependencies>
-    <dependency>
-        <groupId>io.jenkins.plugins</groupId>
-        <artifactId>ionicons-api</artifactId>
-        <version>VERSION</version>
-    </dependency>
-</dependencies>
-```
+Click [here](https://plugins.jenkins.io/ionicons-api/#dependencies) for a snippet.
 
 To use a symbol, reference the icon as following:
 
@@ -31,7 +23,7 @@ To use a symbol, reference the icon as following:
 
 ### Groovy
 ```groovy
-l.task(icon:"symbol-symbolName-outline plugin-ionicons-api")
+l.icon(src:"symbol-symbolName-outline plugin-ionicons-api")
 ```
 
 ### Java
@@ -43,7 +35,7 @@ public String getIconClassName() {
 }
 ```
 
-Preferably, use symbols containing `-outline`, if available.
+Preferably, use symbols containing `-outline`, if available, they fit the best in the Jenkins UI and are used in the Jenkins plugin ecosystem.
 
 A list of all symbols is available on [the Ionicons website](https://ionic.io/ionicons).
 
