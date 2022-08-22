@@ -12,7 +12,7 @@ This plugin provides [ionicons](https://ionic.io/ionicons), also known as "symbo
 
 Add the ionicons-api as dependency to your `pom.xml`:
 
-Click [here](https://plugins.jenkins.io/ionicons-api/#dependencies) for a snippet.
+See the [plugin site](https://plugins.jenkins.io/ionicons-api/#dependencies) for a snippet.
 
 To use a symbol, reference the icon as following:
 
