@@ -56,33 +56,6 @@
         <tag>${scmTag}</tag>
     </scm>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>copy-resources</id>
-                        <phase>process-resources</phase>
-                        <goals>
-                            <goal>copy-resources</goal>
-                        </goals>
-                        <configuration>
-                            <outputDirectory>src/main/resources/images/symbols</outputDirectory>
-                            <resources>
-                                <resource>
-                                    <directory>${project.basedir}/node_modules/ionicons/dist/svg</directory>
-                                    <filtering>false</filtering>
-                                </resource>
-                            </resources>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
-
     <repositories>
         <repository>
             <id>repo.jenkins-ci.org</id>
