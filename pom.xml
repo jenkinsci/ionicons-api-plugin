@@ -69,7 +69,7 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${project.build.directory}/${project.artifactId}/images/symbols</outputDirectory>
+                            <outputDirectory>src/main/resources/images/symbols</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>${project.basedir}/node_modules/ionicons/dist/svg</directory>
