@@ -6,13 +6,6 @@
   "reviewers": [
     "team:ux-sig"
   ],
-  "packageRules": [
-    {
-      "matchDatasources": ["npm"],
-      "addLabels": ["javascript"],
-      "stabilityDays": 3
-    }
-  ],
   "labels": [
     "dependencies"
   ],
