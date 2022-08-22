@@ -10,11 +10,43 @@ IoniconsAPI plugin
 
 This plugin provides [ionicons](https://ionic.io/ionicons), also known as "symbols", for your Jenkins plugins.
 
-To use a symbol, reference the icon as following:
+First, add the ionicons-api as dependency to your `pom.xml`:
 
 ```xml
-<l:icon src="symbol-symbolName plugin-ionicons-api" />
+<dependencies>
+    <dependency>
+        <groupId>io.jenkins.plugins</groupId>
+        <artifactId>ionicons-api</artifactId>
+        <version>VERSION</version>
+    </dependency>
+</dependencies>
 ```
+
+To use a symbol, reference the icon as following:
+
+### Jelly
+```xml
+<l:icon src="symbol-symbolName-outline plugin-ionicons-api" />
+```
+
+### Groovy
+```groovy
+l.task(icon:"symbol-symbolName-outline plugin-ionicons-api")
+```
+
+### Java
+
+```java
+@Override
+public String getIconClassName() {
+    return "symbol-symbolName-outline plugin-ionicons-api";
+}
+```
+
+Preferably, use symbols containing `-outline`, if available.
+
 A list of all symbols is available on [the Ionicons website](https://ionic.io/ionicons).
 
-More information about symbols in Jenkins can be found [here](https://weekly.ci.jenkins.io/design-library/Symbols/).
+More information about symbols and themes in Jenkins can be found [here](https://weekly.ci.jenkins.io/design-library/Symbols/).
+
+If an icon is not theme-able, please raise an [issue](https://github.com/jenkinsci/ionicons-api-plugin/issues/new/choose).
