@@ -2,7 +2,7 @@ IoniconsAPI plugin
 ==============================
 [![Build Status](https://ci.jenkins.io/buildStatus/icon?job=Plugins/ionicons-api-plugin/main)](https://ci.jenkins.io/job/plugins/job/ionicons-api-plugin/)
 [![Gitter](https://badges.gitter.im/jenkinsci/ux-sig.svg)](https://gitter.im/jenkinsci/ux-sig?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/ionicons-api.svg)](https://plugins.jenkins.io/ionicons-api-plugin/)
+[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/ionicons-api.svg)](https://plugins.jenkins.io/ionicons-api/)
 [![Jenkins Plugin Installs](https://img.shields.io/jenkins/plugin/i/ionicons-api.svg?color=blue)](https://plugins.jenkins.io/ionicons-api/)
 [![Contributors](https://img.shields.io/github/contributors/jenkinsci/ionicons-api-plugin.svg)](https://github.com/jenkinsci/ionicons-api-plugin/graphs/contributors)
 
@@ -38,6 +38,8 @@ public String getIconClassName() {
 Preferably, use symbols containing `-outline`, if available, they fit the best in the Jenkins UI and are used in the Jenkins plugin ecosystem.
 
 A list of all symbols is available on [the Ionicons website](https://ionic.io/ionicons).
+
+Custom icon additions are documented [here](docs/additions.md).
 
 More information about symbols and themes in Jenkins can be found [here](https://weekly.ci.jenkins.io/design-library/Symbols/).
 
