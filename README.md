@@ -39,6 +39,8 @@ Preferably, use symbols containing `-outline`, if available, they fit the best i
 
 A list of all symbols is available on [the Ionicons website](https://ionic.io/ionicons).
 
+Custom icon additions are documented [here](docs/additions.md).
+
 More information about symbols and themes in Jenkins can be found [here](https://weekly.ci.jenkins.io/design-library/Symbols/).
 
 If an icon is not theme-able, please raise an [issue](https://github.com/jenkinsci/ionicons-api-plugin/issues/new/choose).
