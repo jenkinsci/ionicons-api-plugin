@@ -1,4 +1,4 @@
-package jenkins.plugins.ionicons;
+package io.jenkins.plugins.ionicons;
 
 import java.io.File;
 import java.net.URL;

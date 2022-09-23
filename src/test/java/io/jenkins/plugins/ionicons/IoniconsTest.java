@@ -1,4 +1,4 @@
-package jenkins.plugins.ionicons;
+package io.jenkins.plugins.ionicons;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -16,6 +16,8 @@ import java.util.stream.Collectors;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
 import org.junit.jupiter.api.Test;
+
+import io.jenkins.plugins.ionicons.Ionicons;
 
 /**
  * Test Class for {@link Ionicons}.
