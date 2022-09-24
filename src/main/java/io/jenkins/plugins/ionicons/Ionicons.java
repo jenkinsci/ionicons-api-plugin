@@ -25,7 +25,7 @@ public final class Ionicons {
     private static final String[] SVG_FILE_FORMAT = { "svg" };
     private static final String SVG_FILE_ENDING = "." + SVG_FILE_FORMAT[0];
     private static final String IMAGES_SYMBOLS_PATH = "images/symbols/";
-    private static final String IONICONS_API_PLUGIN = "ionicons-api-plugin";
+    private static final String IONICONS_API_PLUGIN = "ionicons-api";
     private static final String ICON_CLASS_NAME_PATTERN = "symbol-%s plugin-ionicons-api";
 
     private static final Ionicons INSTANCE = new Ionicons();
