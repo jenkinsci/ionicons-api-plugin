@@ -3,7 +3,8 @@
   "automerge": true,
   "extends": [
     "config:base",
-    ":semanticCommitsDisabled"
+    ":semanticCommitsDisabled",
+    "schedule:monthly"
   ],
   "reviewers": [
     "team:ux-sig"
@@ -11,5 +12,13 @@
   "labels": [
     "dependencies"
   ],
-  "rebaseWhen": "conflicted"
+  "rebaseWhen": "conflicted",
+  "regexManagers": [
+    {
+      "fileMatch": [".mvn/extensions.xml"],
+      "matchStrings": ["<version>(?<currentValue>.*?)<\/version>"],
+      "depNameTemplate": "io.jenkins.tools.incrementals:git-changelist-maven-extension",
+      "datasourceTemplate": "maven"
+    }
+  ]
 }
