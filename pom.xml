@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>4.88</version>
+        <version>5.7</version>
         <relativePath />
     </parent>
 
@@ -18,7 +18,9 @@
     <properties>
         <gitHubRepo>jenkinsci/ionicons-api-plugin</gitHubRepo>
         <changelist>9999999-SNAPSHOT</changelist>
-        <jenkins.version>2.361.4</jenkins.version>
+        <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
+        <jenkins.baseline>2.479</jenkins.baseline>
+        <jenkins.version>${jenkins.baseline}.1</jenkins.version>
         <tagNameFormat>@{project.version}</tagNameFormat>
     </properties>
 
