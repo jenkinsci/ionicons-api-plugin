@@ -41,6 +41,6 @@ A list of all symbols is available on [the Ionicons website](https://ionic.io/io
 
 Custom icon additions are documented [on GitHub](docs/additions.md).
 
-More information about symbols and themes in Jenkins can be found on [weekly.ci.jenkins.io](https://weekly.ci.jenkins.io/design-library/Symbols/).
+More information about symbols and themes in Jenkins can be found on [weekly.ci.jenkins.io](https://weekly.ci.jenkins.io/design-library/symbols/).
 
 If an icon is not theme-able, please raise an [issue](https://github.com/jenkinsci/ionicons-api-plugin/issues/new/choose).
