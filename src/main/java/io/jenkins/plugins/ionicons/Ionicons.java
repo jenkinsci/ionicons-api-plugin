@@ -1,7 +1,5 @@
 package io.jenkins.plugins.ionicons;
 
-import org.apache.commons.lang3.StringUtils;
-
 import java.io.IOException;
 import java.net.URI;
 import java.net.URL;
@@ -13,6 +11,7 @@ import java.util.concurrent.ConcurrentSkipListMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Stream;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * Utility to work with icons provided by the ionicons-api-plugin.
@@ -60,10 +59,10 @@ public final class Ionicons {
         try (Stream<Path> stream = Files.walk(path, 1)) {
             stream.filter(icon -> StringUtils.endsWith(icon.getFileName().toString(), SVG_FILE_ENDING))
                     .forEach(icon -> {
-                                String iconName = StringUtils.removeEnd(icon.getFileName().toString(), SVG_FILE_ENDING);
-                                availableIcons.put(iconName, getIconClassName(iconName));
-                            }
-                    );
+                        String iconName =
+                                StringUtils.removeEnd(icon.getFileName().toString(), SVG_FILE_ENDING);
+                        availableIcons.put(iconName, getIconClassName(iconName));
+                    });
         }
     }
 
@@ -86,5 +85,4 @@ public final class Ionicons {
     public static Map<String, String> getAvailableIcons() {
         return INSTANCE.availableIcons;
     }
-
 }
