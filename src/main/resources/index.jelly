@@ -3,5 +3,5 @@
 <div>
     Provides <a href="https://ionic.io/ionicons" rel="noopener noreferrer">Ionicons</a> for Jenkins Plugins, internally known as "symbols".
     <br/>
-    Check out the <a href="https://weekly.ci.jenkins.io/design-library/Symbols/" rel="noopener noreferrer">design-library</a> how to use ionicons in your plugin.
+    Check out the <a href="https://weekly.ci.jenkins.io/design-library/symbols/" rel="noopener noreferrer">design-library</a> how to use ionicons in your plugin.
 </div>
