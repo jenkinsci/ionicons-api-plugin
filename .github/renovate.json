@@ -2,15 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "automerge": true,
   "extends": [
-    "config:recommended",
-    ":semanticCommitsDisabled",
-    "schedule:monthly"
-  ],
-  "reviewers": [
-    "team:ux-sig"
-  ],
-  "labels": [
-    "dependencies"
-  ],
-  "rebaseWhen": "conflicted"
+    "github>jenkinsci/renovate-config"
+  ]
 }
